@@ -1,0 +1,24 @@
+{
+  "warehouse": "Warehouse",
+  "locations": [
+    "Warehouse", "Sector 14", "Cyber Hub", "MG Road", "Sohna Road",
+    "Udyog Vihar", "Golf Course Road", "Sector 56", "DLF Phase 3", "Sushant Lok"
+  ],
+  "roads": [
+    ["Warehouse", "Udyog Vihar", 5],
+    ["Warehouse", "Sector 14", 7],
+    ["Warehouse", "Sohna Road", 9],
+    ["Udyog Vihar", "Cyber Hub", 3],
+    ["Udyog Vihar", "DLF Phase 3", 4],
+    ["Cyber Hub", "DLF Phase 3", 2],
+    ["Cyber Hub", "MG Road", 6],
+    ["DLF Phase 3", "Sushant Lok", 5],
+    ["Sector 14", "MG Road", 4],
+    ["Sector 14", "Sohna Road", 6],
+    ["MG Road", "Golf Course Road", 5],
+    ["MG Road", "Sushant Lok", 3],
+    ["Golf Course Road", "Sector 56", 4],
+    ["Golf Course Road", "Sushant Lok", 6],
+    ["Sector 56", "Sohna Road", 8]
+  ]
+}

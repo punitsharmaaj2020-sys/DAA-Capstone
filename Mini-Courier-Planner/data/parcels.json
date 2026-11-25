@@ -1,0 +1,14 @@
+[
+  {"id": "P01", "name": "Laptop",          "weight": 3,  "value": 900, "priority": 1, "deadline_hours": 4,  "location": "Cyber Hub"},
+  {"id": "P02", "name": "Medicines",       "weight": 1,  "value": 600, "priority": 1, "deadline_hours": 3,  "location": "Sector 14"},
+  {"id": "P03", "name": "Books Box",       "weight": 8,  "value": 300, "priority": 3, "deadline_hours": 24, "location": "Sohna Road"},
+  {"id": "P04", "name": "Microwave Oven",  "weight": 12, "value": 700, "priority": 2, "deadline_hours": 10, "location": "Sector 56"},
+  {"id": "P05", "name": "Documents",       "weight": 1,  "value": 250, "priority": 1, "deadline_hours": 2,  "location": "MG Road"},
+  {"id": "P06", "name": "Shoes",           "weight": 2,  "value": 200, "priority": 3, "deadline_hours": 30, "location": "DLF Phase 3"},
+  {"id": "P07", "name": "Printer",         "weight": 7,  "value": 450, "priority": 2, "deadline_hours": 12, "location": "Udyog Vihar"},
+  {"id": "P08", "name": "Gift Hamper",     "weight": 4,  "value": 350, "priority": 2, "deadline_hours": 8,  "location": "Golf Course Road"},
+  {"id": "P09", "name": "Mobile Phone",    "weight": 1,  "value": 800, "priority": 1, "deadline_hours": 5,  "location": "Sushant Lok"},
+  {"id": "P10", "name": "Water Purifier",  "weight": 9,  "value": 500, "priority": 3, "deadline_hours": 48, "location": "Sector 56"},
+  {"id": "P11", "name": "Winter Jackets",  "weight": 5,  "value": 280, "priority": 3, "deadline_hours": 36, "location": "Sector 14"},
+  {"id": "P12", "name": "Monitor",         "weight": 6,  "value": 550, "priority": 2, "deadline_hours": 9,  "location": "Cyber Hub"}
+]

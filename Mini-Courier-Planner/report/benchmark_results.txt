@@ -1,0 +1,40 @@
+MINI-COURIER PLANNER - PERFORMANCE TESTING
+============================================================
+Fixed random seed = 42, time.perf_counter(), averaged over several runs
+
+CORRECTNESS CHECKS
+------------------------------------------------------------
+1. Merge Sort matches Python's sorted() on 200 parcels : PASS
+2. Knapsack DP equals brute force (12 parcels, cap 30)  : PASS  (1419 vs 1419)
+3. Dijkstra on a hand-checked 4-node graph              : PASS  {'A': 0, 'B': 3, 'C': 1, 'D': 8}
+4. Nearest Neighbor: all stops visited, >= exact answer : PASS  (NN 253.3 vs exact 253.3)
+
+RUNTIME RESULTS (milliseconds)
+------------------------------------------------------------
+Algorithm             Input size                 Time (ms)
+Merge Sort            small (n=100)                  0.114
+Merge Sort            medium (n=1000)                1.600
+Merge Sort            large (n=3000)                 5.634
+Bubble Sort           small (n=100)                  0.567
+Bubble Sort           medium (n=1000)               63.298
+Bubble Sort           large (n=3000)               618.291
+Knapsack DP           small (n=10, W=50)             0.049
+Knapsack DP           medium (n=100, W=500)          4.533
+Knapsack DP           large (n=400, W=2000)         84.400
+Dijkstra              small (V=10)                   0.023
+Dijkstra              medium (V=500)                 0.674
+Dijkstra              large (V=5000)                18.367
+Nearest Neighbor      small (n=10)                   0.010
+Nearest Neighbor      medium (n=200)                 1.519
+Nearest Neighbor      large (n=1000)                42.838
+
+NEAREST NEIGHBOR vs BRUTE FORCE (exact) - same random maps
+------------------------------------------------------------
+Stops      NN time (ms)    Brute force (ms)    NN longer by (%)
+5                 0.004               0.035                19.4
+6                 0.004               0.110                 0.0
+7                 0.005               0.700                 0.0
+8                 0.005               4.934                 0.0
+9                 0.007              43.901                 0.0
+
+Charts saved in: /home/claude/Mini-Courier-Planner/report/charts
